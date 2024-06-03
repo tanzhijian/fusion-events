@@ -16,6 +16,8 @@ certifi==2024.2.2
     # via requests
 charset-normalizer==3.3.2
     # via requests
+cssselect==1.2.0
+    # via parsel
 h11==0.14.0
     # via httpcore
 httpcore==1.0.5
@@ -28,15 +30,21 @@ idna==3.7
     # via requests
 iniconfig==2.0.0
     # via pytest
+jmespath==1.0.1
+    # via parsel
 kloppy==3.14.0
     # via fusion-events
 lxml==4.9.4
     # via kloppy
+    # via parsel
 mypy==1.10.0
 mypy-extensions==1.0.0
     # via mypy
 packaging==24.0
+    # via parsel
     # via pytest
+parsel==1.9.1
+    # via fusion-events
 pluggy==1.5.0
     # via pytest
 pytest==8.2.1
@@ -56,3 +64,5 @@ typing-extensions==4.12.0
     # via mypy
 urllib3==2.2.1
     # via requests
+w3lib==2.1.2
+    # via parsel
