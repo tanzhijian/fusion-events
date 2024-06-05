@@ -20,4 +20,4 @@ class TestMatchSpider:
         self, spider: match.Spider, response: httpx.Response
     ) -> None:
         match = spider.parse(response)
-        assert match.id == "22256"
+        assert match.metadata.teams[0].name == "Aston Villa"
